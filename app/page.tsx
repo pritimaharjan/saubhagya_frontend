@@ -18,11 +18,11 @@ export default function Home() {
       <Hero />
       {/* <FeaturedCategories /> */}
       <ProductSection />
-      <PromotionSection />
-      {/* <ShopByOccasion /> */}
-      <StorySection />
+      {/* <PromotionSection /> */}
+      <ShopByOccasion />
+      {/* <StorySection /> */}
       <BlogSection />
-      <InstagramSection />
+      {/* <InstagramSection /> */}
       {/* <HandmadeProcess /> */}
       {/* <Testimonials /> */}
       <CTASection />

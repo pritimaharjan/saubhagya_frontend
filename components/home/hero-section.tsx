@@ -132,19 +132,20 @@ export default function Hero() {
           <div className="mx-auto w-full max-w-[1140px] px-5 lg:px-0">
             <div className="max-w-[400px]">
               <h1 className="text-[42px] font-bold leading-[1.05] tracking-[-1.5px] text-[#292d35] sm:text-[48px]">
-                Gift for your skin
+                Handcrafted Gifts Made to Last
               </h1>
 
               <p className="mt-4 max-w-[320px] text-[13px] leading-5 text-gray-600">
-                Aliquip fugiat ipsum nostrud ex et eu incididunt quis minim
-                dolete exercitation voluptate
+                Discover beautiful crochet flowers, cozy creations, and scented
+                candles crafted with love. Perfect for birthdays, anniversaries,
+                or simply making someone&apos;s day special.
               </p>
 
               <Link
                 href="/shop"
                 className="mt-5 inline-flex rounded-lg bg-[#6268e8] px-6 py-3 text-[12px] font-medium text-white transition hover:bg-[#5157d7]"
               >
-                Shop Now
+                Shop Collection
               </Link>
             </div>
           </div>
