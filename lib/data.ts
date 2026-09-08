@@ -24,16 +24,18 @@ export const categories: Category[] = [
     id: "crochet",
     name: "Crochet",
     slug: "crochet",
-    description: "Handcrafted crochet items made with love and premium yarn",
-    image: "/single-products/prod1.png",
+    description:
+      "Handcrafted crochet creations made with love, care, and premium yarn",
+    image:
+      "https://images.unsplash.com/photo-1603905179139-db12ab535bca?auto=format&fit=crop&w=1000&q=85",
     productCount: 24,
+
     children: [
       {
         id: "crochet-flowers",
-
         name: "Flowers",
         slug: "crochet-flowers",
-        description: "Beautiful crochet flowers that never wilt",
+        description: "Beautiful handmade crochet flowers that never wilt",
         parentId: "crochet",
         productCount: 8,
       },
@@ -41,7 +43,7 @@ export const categories: Category[] = [
         id: "crochet-bouquets",
         name: "Bouquets",
         slug: "crochet-bouquets",
-        description: "Stunning crochet flower arrangements",
+        description: "Beautiful crochet flower arrangements for every occasion",
         parentId: "crochet",
         productCount: 5,
       },
@@ -49,7 +51,7 @@ export const categories: Category[] = [
         id: "crochet-keychains",
         name: "Keychains",
         slug: "crochet-keychains",
-        description: "Cute and unique crochet keychains",
+        description: "Cute and unique handmade crochet keychains",
         parentId: "crochet",
         productCount: 6,
       },
@@ -57,7 +59,7 @@ export const categories: Category[] = [
         id: "crochet-home-decor",
         name: "Home Decor",
         slug: "crochet-home-decor",
-        description: "Elegant crochet pieces for your home",
+        description: "Charming handmade crochet pieces for your home",
         parentId: "crochet",
         productCount: 5,
       },
@@ -65,25 +67,29 @@ export const categories: Category[] = [
         id: "crochet-bookmarks",
         name: "Bookmarks",
         slug: "crochet-bookmarks",
-        description: "Charming crochet bookmarks for book lovers",
+        description: "Handmade crochet bookmarks for book lovers",
         parentId: "crochet",
         productCount: 4,
       },
     ],
   },
+
   {
     id: "candles",
     name: "Candles",
     slug: "candles",
-    description: "Hand-poured candles with premium scents and unique designs",
-    image: "/single-products/prod1.png",
+    description:
+      "Hand-poured candles designed to bring warmth, fragrance, and beauty to your space",
+    image:
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1000&q=85",
     productCount: 16,
+
     children: [
       {
         id: "candles-flower",
         name: "Flower Candles",
         slug: "candles-flower",
-        description: "Candles shaped like beautiful flowers",
+        description: "Beautiful flower-shaped candles for gifting and décor",
         parentId: "candles",
         productCount: 4,
       },
@@ -91,7 +97,7 @@ export const categories: Category[] = [
         id: "candles-scented",
         name: "Scented Candles",
         slug: "candles-scented",
-        description: "Aromatherapy candles with essential oils",
+        description: "Beautifully scented candles for cozy moments",
         parentId: "candles",
         productCount: 5,
       },
@@ -99,7 +105,7 @@ export const categories: Category[] = [
         id: "candles-decorative",
         name: "Decorative Candles",
         slug: "candles-decorative",
-        description: "Artistic candles for home décor",
+        description: "Artistic candles designed to complement your home",
         parentId: "candles",
         productCount: 4,
       },
@@ -107,25 +113,29 @@ export const categories: Category[] = [
         id: "candles-soy",
         name: "Soy Candles",
         slug: "candles-soy",
-        description: "Eco-friendly soy wax candles",
+        description: "Eco-friendly candles made with natural soy wax",
         parentId: "candles",
         productCount: 3,
       },
     ],
   },
+
   {
     id: "gift-bundles",
     name: "Gift Bundles",
     slug: "gift-bundles",
-    description: "Curated gift sets for every occasion",
-    image: "/single-products/prod2.png",
+    description:
+      "Thoughtfully curated handmade gift sets for every special occasion",
+    image:
+      "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1000&q=85",
     productCount: 8,
+
     children: [
       {
         id: "bundles-birthday",
         name: "Birthday",
         slug: "bundles-birthday",
-        description: "Perfect birthday gift combinations",
+        description: "Thoughtful handmade gifts for birthdays",
         parentId: "gift-bundles",
         productCount: 2,
       },
@@ -133,7 +143,7 @@ export const categories: Category[] = [
         id: "bundles-anniversary",
         name: "Anniversary",
         slug: "bundles-anniversary",
-        description: "Romantic anniversary gift sets",
+        description: "Romantic handmade gift sets for anniversaries",
         parentId: "gift-bundles",
         productCount: 2,
       },
@@ -141,7 +151,7 @@ export const categories: Category[] = [
         id: "bundles-graduation",
         name: "Graduation",
         slug: "bundles-graduation",
-        description: "Celebrate achievements with style",
+        description: "Celebrate achievements with meaningful handmade gifts",
         parentId: "gift-bundles",
         productCount: 1,
       },
@@ -149,7 +159,7 @@ export const categories: Category[] = [
         id: "bundles-corporate",
         name: "Corporate",
         slug: "bundles-corporate",
-        description: "Professional gift sets for businesses",
+        description: "Thoughtful handmade gifts for teams and clients",
         parentId: "gift-bundles",
         productCount: 1,
       },
@@ -157,18 +167,20 @@ export const categories: Category[] = [
         id: "bundles-festival",
         name: "Festival",
         slug: "bundles-festival",
-        description: "Festive gift collections",
+        description: "Special handmade collections for festive celebrations",
         parentId: "gift-bundles",
         productCount: 2,
       },
     ],
   },
+
   {
     id: "personalized",
     name: "Personalized",
     slug: "personalized",
-    description: "Custom-made gifts tailored just for you",
-    image: "public/single-products/prod4.png",
+    description: "Custom-made handmade gifts created especially for you",
+    image:
+      "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1000&q=85",
     productCount: 10,
   },
 ];
@@ -176,402 +188,472 @@ export const categories: Category[] = [
 export const products: Product[] = [
   {
     id: "rose-bouquet",
-    name: "Rose Bouquet - Red",
-    slug: "rose-bouquet-red",
+    name: "Crochet Rose Bouquet",
+    slug: "crochet-rose-bouquet",
     description:
-      "A stunning handcrafted crochet rose bouquet featuring 12 beautifully detailed red roses. Each rose is individually made with premium yarn and arranged in an elegant bouquet. Perfect for anniversaries, Valentine's Day, or as a timeless gift that will never wilt.",
-    shortDescription: "Handcrafted crochet rose bouquet with 12 red roses",
+      "A beautiful handcrafted crochet rose bouquet featuring detailed roses made with premium yarn. Each flower is carefully crocheted and arranged by hand, creating a timeless bouquet that never wilts.",
+    shortDescription: "Handcrafted crochet rose bouquet that never fades",
     price: 45.0,
+
     images: [
       {
-        src: "/images/products/rose-bouquet-1.jpg",
-        alt: "Red crochet rose bouquet front view",
+        src: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85",
+        alt: "Beautiful flower bouquet",
       },
       {
-        src: "/images/products/rose-bouquet-2.jpg",
-        alt: "Red crochet rose bouquet detail",
+        src: "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1000&q=85",
+        alt: "Colorful flower arrangement",
       },
       {
-        src: "/images/products/rose-bouquet-3.jpg",
-        alt: "Red crochet rose bouquet in vase",
+        src: "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1000&q=85",
+        alt: "Decorative flower bouquet",
       },
     ],
+
     category: {
       id: "crochet-bouquets",
       name: "Bouquets",
       slug: "crochet-bouquets",
     },
+
     tags: ["best-seller", "featured"],
+
     materials: ["Premium acrylic yarn", "Floral wire", "Green floral tape"],
+
     dimensions: "30cm height, 20cm width",
+
     features: [
-      "Handcrafted with love",
+      "100% handmade",
       "Never wilts",
       "Premium quality yarn",
-      "Elegant arrangement",
+      "Long-lasting keepsake",
+      "Elegant floral arrangement",
     ],
+
     customizationOptions: [
-      "Color options: Red, Pink, White, Yellow",
+      "Choose flower colors",
+      "Choose bouquet size",
       "Add a greeting card",
+      "Add personalized message",
     ],
+
     isBestSeller: true,
     isFeatured: true,
     rating: 4.9,
     reviewCount: 47,
     inStock: true,
   },
+
   {
     id: "lavender-bouquet",
-    name: "Lavender Bouquet",
-    slug: "lavender-bouquet",
+    name: "Crochet Lavender Bouquet",
+    slug: "crochet-lavender-bouquet",
     description:
-      "A dreamy crochet lavender bouquet that brings the calming essence of Provence to any room. Each stem is carefully crafted with soft purple and green yarn, creating a realistic and elegant arrangement.",
-    shortDescription: "Calming crochet lavender bouquet arrangement",
+      "A delicate handmade crochet lavender bouquet designed to bring soft colors and everlasting beauty to any space.",
+    shortDescription: "Elegant crochet lavender bouquet that lasts forever",
     price: 38.0,
+
     images: [
       {
-        src: "/images/products/lavender-bouquet-1.jpg",
-        alt: "Lavender crochet bouquet front view",
+        src: "https://images.unsplash.com/photo-1498843053639-170ff2122f35?auto=format&fit=crop&w=1000&q=85",
+        alt: "Purple flowers",
       },
       {
-        src: "/images/products/lavender-bouquet-2.jpg",
-        alt: "Lavender crochet bouquet detail",
+        src: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1000&q=85",
+        alt: "Lavender style flower arrangement",
       },
     ],
+
     category: {
       id: "crochet-bouquets",
       name: "Bouquets",
       slug: "crochet-bouquets",
     },
+
     tags: ["new", "featured"],
-    materials: ["Soft acrylic yarn", "Floral wire"],
+
+    materials: ["Soft acrylic yarn", "Floral wire", "Green floral tape"],
+
     dimensions: "35cm height, 18cm width",
-    features: ["Realistic lavender design", "Calming colors", "Long-lasting"],
+
+    features: [
+      "Handmade lavender flowers",
+      "Soft calming colors",
+      "Never wilts",
+      "Long-lasting decoration",
+    ],
+
     isNew: true,
     isFeatured: true,
     rating: 4.8,
     reviewCount: 23,
     inStock: true,
   },
+
   {
     id: "sunflower-keychain",
-    name: "Sunflower Keychain",
-    slug: "sunflower-keychain",
+    name: "Crochet Sunflower Keychain",
+    slug: "crochet-sunflower-keychain",
     description:
-      "A cheerful little sunflower keychain that adds a pop of sunshine to your everyday. Hand-crocheted with vibrant yellow and brown yarn, this keychain is the perfect small gift or treat for yourself.",
-    shortDescription: "Cheerful crochet sunflower keychain",
+      "A cheerful little handmade keychain inspired by a bright sunflower. Lightweight, cute, and perfect for bags, backpacks, keys, or gifting.",
+    shortDescription: "Cheerful handmade sunflower keychain",
     price: 8.0,
+
     images: [
       {
-        src: "/images/products/sunflower-keychain-1.jpg",
-        alt: "Sunflower crochet keychain front",
+        src: "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?auto=format&fit=crop&w=1000&q=85",
+        alt: "Bright yellow sunflower",
       },
       {
-        src: "/images/products/sunflower-keychain-2.jpg",
-        alt: "Sunflower crochet keychain detail",
+        src: "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=1000&q=85",
+        alt: "Sunflower close-up",
       },
     ],
+
     category: {
       id: "crochet-keychains",
       name: "Keychains",
       slug: "crochet-keychains",
     },
+
     tags: ["best-seller"],
-    materials: ["Cotton yarn", "Keychain ring"],
+
+    materials: ["Cotton yarn", "Keychain ring", "Polyester filling"],
+
     dimensions: "5cm diameter",
-    features: ["Compact and lightweight", "Vibrant colors", "Durable"],
+
+    features: [
+      "100% handmade",
+      "Compact and lightweight",
+      "Bright colors",
+      "Durable keyring",
+      "Perfect small gift",
+    ],
+
     isBestSeller: true,
     rating: 4.7,
     reviewCount: 89,
     inStock: true,
   },
+
   {
     id: "tulip-keychain",
-    name: "Tulip Keychain",
-    slug: "tulip-keychain",
+    name: "Crochet Tulip Keychain",
+    slug: "crochet-tulip-keychain",
     description:
-      "A delicate tulip-shaped keychain in pastel colors. Perfect for spring lovers and flower enthusiasts. Each tulip is handcrafted with attention to detail.",
-    shortDescription: "Delicate pastel tulip crochet keychain",
+      "A cute tulip-inspired handmade keychain available in soft and beautiful colors. Perfect for attaching to keys, bags, backpacks, and purses.",
+    shortDescription: "Cute pastel crochet tulip keychain",
     price: 7.0,
+
     images: [
       {
-        src: "/images/products/tulip-keychain-1.jpg",
-        alt: "Tulip crochet keychain front",
+        src: "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=1000&q=85",
+        alt: "Colorful tulip flowers",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1468327768560-75b778cbb551?auto=format&fit=crop&w=1000&q=85",
+        alt: "Pink tulip flowers",
       },
     ],
+
     category: {
       id: "crochet-keychains",
       name: "Keychains",
       slug: "crochet-keychains",
     },
+
     tags: ["new"],
-    materials: ["Cotton yarn", "Keychain ring"],
+
+    materials: ["Cotton yarn", "Keychain ring", "Polyester filling"],
+
     dimensions: "6cm height",
-    features: ["Pastel color palette", "Lightweight", "Gift-ready"],
+
+    features: ["Pastel colors", "Lightweight", "Handmade", "Gift-ready"],
+
     isNew: true,
     rating: 4.6,
     reviewCount: 34,
     inStock: true,
   },
+
   {
     id: "flower-candle-rose",
     name: "Rose Flower Candle",
     slug: "rose-flower-candle",
     description:
-      "A beautifully crafted candle shaped like a blooming rose. When lit, it creates a warm, romantic ambiance. Made with premium soy wax and infused with a delicate rose fragrance.",
-    shortDescription: "Rose-shaped candle with romantic rose scent",
+      "A beautiful flower-inspired candle designed to bring warmth and elegance to your home. Perfect for birthdays, anniversaries, romantic gifts, and home décor.",
+    shortDescription: "Beautiful handmade rose-inspired candle",
     price: 22.0,
+
     images: [
       {
-        src: "/images/products/rose-candle-1.jpg",
-        alt: "Rose flower candle front view",
+        src: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1000&q=85",
+        alt: "Handmade decorative candle",
       },
       {
-        src: "/images/products/rose-candle-2.jpg",
-        alt: "Rose flower candle lit",
+        src: "https://images.unsplash.com/photo-1602874801006-e26c3b7b4a5c?auto=format&fit=crop&w=1000&q=85",
+        alt: "Decorative candle",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1603905179139-db12ab535bca?auto=format&fit=crop&w=1000&q=85",
+        alt: "Candle and handmade decor",
       },
     ],
+
     category: {
       id: "candles-flower",
       name: "Flower Candles",
       slug: "candles-flower",
     },
+
     tags: ["featured", "best-seller"],
-    materials: ["100% soy wax", "Cotton wick", "Rose essential oil"],
+
+    materials: ["Soy wax", "Cotton wick", "Fragrance oil"],
+
     dimensions: "8cm height, 7cm diameter",
+
     features: [
       "Hand-poured",
-      "Rose scented",
-      "Eco-friendly soy wax",
-      "Burns up to 20 hours",
+      "Beautiful floral design",
+      "Decorative and functional",
+      "Premium wax",
+      "Perfect for gifting",
     ],
+
     isFeatured: true,
     isBestSeller: true,
     rating: 4.9,
     reviewCount: 62,
     inStock: true,
   },
+
   {
     id: "lavender-scented-candle",
     name: "Lavender Dreams Candle",
     slug: "lavender-dreams-candle",
     description:
-      "A premium scented candle with calming lavender essential oil. Perfect for relaxation and creating a peaceful atmosphere. Hand-poured with natural soy wax in a reusable glass jar.",
-    shortDescription: "Calming lavender soy candle for relaxation",
+      "A beautifully scented lavender-inspired candle created for cozy evenings, thoughtful gifts, and peaceful moments at home.",
+    shortDescription: "Calming lavender scented handmade candle",
     price: 18.0,
     compareAtPrice: 24.0,
+
     images: [
       {
-        src: "/images/products/lavender-candle-1.jpg",
-        alt: "Lavender scented candle front",
+        src: "https://images.unsplash.com/photo-1608181831718-c9c2a9a3b4c7?auto=format&fit=crop&w=1000&q=85",
+        alt: "Lavender scented candle",
       },
       {
-        src: "/images/products/lavender-candle-2.jpg",
-        alt: "Lavender scented candle detail",
+        src: "https://images.unsplash.com/photo-1602607205870-3f2f8c4c0a47?auto=format&fit=crop&w=1000&q=85",
+        alt: "Candle for relaxation",
       },
     ],
+
     category: {
       id: "candles-scented",
       name: "Scented Candles",
       slug: "candles-scented",
     },
+
     tags: ["featured"],
-    materials: ["Natural soy wax", "Lavender essential oil", "Cotton wick"],
+
+    materials: ["Natural wax", "Lavender fragrance", "Cotton wick"],
+
     dimensions: "10cm height, 8cm diameter",
+
     features: [
-      "Calming lavender scent",
-      "30+ hour burn time",
-      "Reusable glass jar",
-      "Eco-friendly",
+      "Calming lavender fragrance",
+      "Hand-poured",
+      "Long burn time",
+      "Reusable container",
+      "Beautiful gift option",
     ],
+
     isFeatured: true,
     rating: 4.8,
     reviewCount: 45,
     inStock: true,
   },
+
   {
     id: "honey-candle",
     name: "Honey & Vanilla Candle",
     slug: "honey-vanilla-candle",
     description:
-      "A warm and inviting candle with notes of honey and vanilla. Creates a cozy atmosphere perfect for evenings at home. Made with premium soy wax blend.",
+      "A warm and comforting handmade candle with sweet honey and vanilla-inspired fragrance. Designed to create a cozy atmosphere in any room.",
     shortDescription: "Warm honey and vanilla scented candle",
     price: 16.0,
+
     images: [
       {
-        src: "/images/products/honey-candle-1.jpg",
-        alt: "Honey vanilla candle front",
+        src: "https://images.unsplash.com/photo-1602523961358-f9f03dd557db?auto=format&fit=crop&w=1000&q=85",
+        alt: "Warm scented candle",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1000&q=85",
+        alt: "Decorative candle",
       },
     ],
+
     category: {
       id: "candles-scented",
       name: "Scented Candles",
       slug: "candles-scented",
     },
-    tags: [],
-    materials: ["Soy wax blend", "Honey and vanilla fragrance", "Cotton wick"],
+
+    tags: ["new"],
+
+    materials: ["Soy wax blend", "Honey vanilla fragrance", "Cotton wick"],
+
     dimensions: "9cm height, 7cm diameter",
-    features: ["Warm cozy scent", "25+ hour burn time", "Hand-poured"],
+
+    features: [
+      "Warm cozy fragrance",
+      "Hand-poured",
+      "Long-lasting scent",
+      "Gift-ready",
+    ],
+
+    isNew: true,
     rating: 4.7,
     reviewCount: 28,
     inStock: true,
   },
+
   {
     id: "crochet-heart",
-    name: "Crochet Heart - Mini",
-    slug: "crochet-heart-mini",
+    name: "Mini Crochet Heart",
+    slug: "mini-crochet-heart",
     description:
-      "A sweet little crochet heart, perfect as a small token of love or appreciation. Available in multiple colors, this handmade heart can be used as a decoration, keychain, or keepsake.",
-    shortDescription: "Sweet mini crochet heart decoration",
+      "A sweet handmade crochet heart that can be used as a small decoration, keepsake, bag charm, or thoughtful little gift.",
+    shortDescription: "Sweet handmade crochet heart keepsake",
     price: 5.0,
+
     images: [
-      { src: "/images/products/heart-1.jpg", alt: "Mini crochet heart red" },
       {
-        src: "/images/products/heart-2.jpg",
-        alt: "Mini crochet heart collection",
+        src: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1000&q=85",
+        alt: "Red heart decoration",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1000&q=85",
+        alt: "Romantic heart decoration",
       },
     ],
+
     category: {
       id: "crochet-home-decor",
       name: "Home Decor",
       slug: "crochet-home-decor",
     },
+
     tags: ["best-seller"],
-    materials: ["Cotton yarn"],
+
+    materials: ["Cotton yarn", "Polyester filling"],
+
     dimensions: "4cm x 4cm",
-    features: ["Multi-purpose", "Available in 8 colors", "Handmade"],
+
+    features: [
+      "Handmade",
+      "Available in multiple colors",
+      "Lightweight",
+      "Multi-purpose",
+      "Perfect little gift",
+    ],
+
     isBestSeller: true,
     rating: 4.8,
     reviewCount: 112,
     inStock: true,
   },
+
   {
     id: "cozy-bookmark",
-    name: "Cozy Bookmark Set",
-    slug: "cozy-bookmark-set",
+    name: "Crochet Bookmark Set",
+    slug: "crochet-bookmark-set",
     description:
-      "A set of 3 charming crochet bookmarks in complementary colors. Each bookmark features a unique pattern and a small decorative tassel. Perfect for book lovers.",
-    shortDescription: "Set of 3 charming crochet bookmarks",
+      "A charming set of handmade crochet bookmarks designed especially for book lovers. Each bookmark features a unique handmade pattern and decorative detail.",
+    shortDescription: "Handmade crochet bookmarks for book lovers",
     price: 12.0,
+
     images: [
-      { src: "/images/products/bookmark-1.jpg", alt: "Crochet bookmark set" },
       {
-        src: "/images/products/bookmark-2.jpg",
-        alt: "Crochet bookmark in book",
+        src: "https://images.unsplash.com/photo-1511108690759-009324a90311?auto=format&fit=crop&w=1000&q=85",
+        alt: "Book and bookmark",
+      },
+      {
+        src: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=1000&q=85",
+        alt: "Books and reading accessories",
       },
     ],
+
     category: {
       id: "crochet-bookmarks",
       name: "Bookmarks",
       slug: "crochet-bookmarks",
     },
+
     tags: ["new"],
-    materials: ["Cotton yarn", "Tassel threads"],
+
+    materials: ["Cotton yarn", "Decorative thread"],
+
     dimensions: "15cm length",
-    features: ["Set of 3", "Unique patterns", "Tassel detail"],
+
+    features: [
+      "Set of 3",
+      "Handmade",
+      "Unique patterns",
+      "Lightweight",
+      "Perfect gift for readers",
+    ],
+
     isNew: true,
     rating: 4.5,
     reviewCount: 18,
     inStock: true,
   },
+
   {
-    id: "wall-hanging",
-    name: "Macrame Wall Hanging",
-    slug: "macrame-wall-hanging",
+    id: "crochet-wall-hanging",
+    name: "Crochet Wall Hanging",
+    slug: "crochet-wall-hanging",
     description:
-      "An elegant macrame-style wall hanging with intricate knot patterns. Adds a bohemian touch to any room. Handcrafted with natural cotton rope.",
-    shortDescription: "Elegant macrame-style wall hanging",
+      "An elegant handmade crochet-inspired wall decoration designed to add warmth and character to bedrooms, living spaces, nurseries, and cozy corners.",
+    shortDescription: "Elegant handmade crochet wall decoration",
     price: 35.0,
+
     images: [
       {
-        src: "/images/products/wall-hanging-1.jpg",
-        alt: "Macrame wall hanging front",
+        src: "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1000&q=85",
+        alt: "Beautiful home interior",
       },
       {
-        src: "/images/products/wall-hanging-2.jpg",
-        alt: "Macrame wall hanging detail",
+        src: "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=85",
+        alt: "Cozy home decoration",
       },
     ],
+
     category: {
       id: "crochet-home-decor",
       name: "Home Decor",
       slug: "crochet-home-decor",
     },
+
     tags: ["featured"],
-    materials: ["Natural cotton rope", "Wooden dowel"],
+
+    materials: ["Cotton yarn", "Wooden dowel"],
+
     dimensions: "40cm width, 60cm length",
-    features: ["Bohemian style", "Natural materials", "Handmade"],
+
+    features: [
+      "Handmade",
+      "Bohemian-inspired design",
+      "Natural materials",
+      "Lightweight",
+      "Unique home décor piece",
+    ],
+
     isFeatured: true,
     rating: 4.9,
     reviewCount: 31,
-    inStock: true,
-  },
-  {
-    id: "birthday-bundle-essentials",
-    name: "Birthday Joy Bundle",
-    slug: "birthday-joy-bundle",
-    description:
-      "The perfect birthday gift set featuring a crochet bouquet, a scented candle, and a personalized greeting card. Everything you need to make someone's birthday special.",
-    shortDescription: "Complete birthday gift set with bouquet and candle",
-    price: 65.0,
-    images: [
-      {
-        src: "/images/products/birthday-bundle-1.jpg",
-        alt: "Birthday gift bundle",
-      },
-      {
-        src: "/images/products/birthday-bundle-2.jpg",
-        alt: "Birthday bundle contents",
-      },
-    ],
-    category: {
-      id: "bundles-birthday",
-      name: "Birthday",
-      slug: "bundles-birthday",
-    },
-    tags: ["featured", "best-seller"],
-    materials: ["Various premium materials"],
-    features: [
-      "Crochet bouquet included",
-      "Scented candle included",
-      "Personalized greeting card",
-      "Gift wrapping included",
-    ],
-    isFeatured: true,
-    isBestSeller: true,
-    rating: 4.9,
-    reviewCount: 38,
-    inStock: true,
-  },
-  {
-    id: "self-care-bundle",
-    name: "Self Care Sunday Bundle",
-    slug: "self-care-sunday-bundle",
-    description:
-      "A relaxing self-care bundle with a lavender candle, a crochet heart, and a cozy bookmark. Perfect for someone who deserves a moment of peace.",
-    shortDescription: "Relaxing self-care gift bundle",
-    price: 42.0,
-    images: [
-      {
-        src: "/images/products/self-care-bundle-1.jpg",
-        alt: "Self care gift bundle",
-      },
-    ],
-    category: {
-      id: "bundles-birthday",
-      name: "Birthday",
-      slug: "bundles-birthday",
-    },
-    tags: ["new"],
-    features: [
-      "Lavender candle",
-      "Crochet heart",
-      "Cozy bookmark",
-      "Gift wrapping included",
-    ],
-    isNew: true,
-    rating: 4.8,
-    reviewCount: 21,
     inStock: true,
   },
 ];
@@ -582,40 +664,57 @@ export const bundles: Bundle[] = [
     name: "Birthday Joy Bundle",
     slug: "birthday-joy-bundle",
     description:
-      "Celebrate another year of life with this beautifully curated birthday gift set. Includes a stunning crochet bouquet, a fragrant scented candle, and a personalized greeting card.",
-    shortDescription: "Complete birthday gift set",
+      "A thoughtfully curated birthday gift featuring a beautiful crochet bouquet, handmade candle, and personalized greeting card.",
+    shortDescription: "A beautiful handmade birthday gift set",
+
     coverImage: {
-      src: "/images/bundles/birthday-bundle.jpg",
-      alt: "Birthday Joy Bundle",
+      src: "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1200&q=85",
+      alt: "Birthday flower gift bundle",
     },
-    products: [products[0], products[5], products[8]],
+
+    products: [products[0], products[5], products[7]],
+
     startingPrice: 65.0,
     includesGiftWrapping: true,
     includesGreetingCard: true,
+
     customizationOptions: [
       "Choose bouquet color",
-      "Select candle scent",
+      "Choose candle scent",
       "Add personalized message",
+      "Choose gift wrapping style",
     ],
+
     occasions: ["birthday"],
     isFeatured: true,
   },
+
   {
     id: "anniversary-love-bundle",
     name: "Anniversary Love Bundle",
     slug: "anniversary-love-bundle",
     description:
-      "Express your enduring love with this romantic anniversary gift set. A red rose bouquet, a romantic candle, and a heartfelt crochet heart.",
-    shortDescription: "Romantic anniversary gift set",
+      "A romantic handmade anniversary gift set featuring a crochet rose bouquet, flower candle, and sweet crochet heart keepsake.",
+    shortDescription: "Romantic handmade anniversary gift set",
+
     coverImage: {
-      src: "/images/bundles/anniversary-bundle.jpg",
-      alt: "Anniversary Love Bundle",
+      src: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=1200&q=85",
+      alt: "Romantic anniversary gift",
     },
+
     products: [products[0], products[4], products[7]],
+
     startingPrice: 72.0,
     includesGiftWrapping: true,
     includesGreetingCard: true,
-    customizationOptions: ["Choose rose count", "Add a love letter"],
+
+    customizationOptions: [
+      "Choose bouquet color",
+      "Choose candle style",
+      "Add personalized message",
+      "Add a love note",
+    ],
+
     occasions: ["anniversary"],
     isFeatured: true,
   },
@@ -627,43 +726,47 @@ export const testimonials: Testimonial[] = [
     name: "Sarah M.",
     rating: 5,
     comment:
-      "The crochet bouquet I ordered for my mom's birthday was absolutely stunning! She loved it and couldn't believe it was handmade. The quality is exceptional.",
+      "The crochet bouquet I ordered for my mom's birthday was absolutely beautiful! She loved it and couldn't believe every flower was handmade.",
     date: "2024-12-15",
-    product: "Rose Bouquet - Red",
+    product: "Crochet Rose Bouquet",
   },
+
   {
     id: "testimonial-2",
     name: "James K.",
     rating: 5,
     comment:
-      "I ordered the anniversary bundle for my wife and she was thrilled. The attention to detail in every piece is remarkable. Will definitely order again!",
+      "I ordered the anniversary bundle for my wife and she absolutely loved it. The crochet flowers are beautiful and the presentation was perfect.",
     date: "2024-11-28",
     product: "Anniversary Love Bundle",
   },
+
   {
     id: "testimonial-3",
     name: "Priya R.",
     rating: 5,
     comment:
-      "These candles smell incredible and the rose shape is so unique. I've bought several as gifts and everyone has asked where I got them from.",
+      "The flower candle is so beautiful! It looks amazing as part of my room décor and makes such a thoughtful gift.",
     date: "2024-12-01",
     product: "Rose Flower Candle",
   },
+
   {
     id: "testimonial-4",
     name: "Emma L.",
     rating: 4,
     comment:
-      "The bookmark set is adorable! I bought it for myself and ended up ordering more as Christmas gifts. The craftsmanship is beautiful.",
+      "The crochet bookmark set is adorable. I bought one for myself and then ordered more as gifts for my friends.",
     date: "2024-12-10",
-    product: "Cozy Bookmark Set",
+    product: "Crochet Bookmark Set",
   },
+
   {
     id: "testimonial-5",
     name: "David C.",
     rating: 5,
     comment:
-      "Ordered corporate gift bundles for our team and they were a huge hit! The quality and presentation were top-notch. Highly recommend for corporate gifting.",
+      "We ordered handmade gift sets for our team and everyone loved them. The products were beautifully packed and felt much more personal than typical gifts.",
     date: "2024-11-20",
     product: "Birthday Joy Bundle",
   },
@@ -672,11 +775,34 @@ export const testimonials: Testimonial[] = [
 export const heroBanners: HeroBanner[] = [
   {
     id: "hero-1",
-    title: "Handcrafted with Love",
+    title: "Handmade Gifts That Last",
     subtitle:
-      "Discover unique handmade gifts that tell a story. Every piece is crafted with care and premium materials.",
-    image: "/images/hero/hero-1.jpg",
+      "Discover beautiful crochet flowers, charming keyrings, handcrafted candles, and thoughtful gift bundles made with love.",
+    image:
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1800&q=90",
     ctaText: "Explore Collection",
+    ctaLink: "/shop",
+  },
+
+  {
+    id: "hero-2",
+    title: "Flowers That Never Fade",
+    subtitle:
+      "Give someone special a bouquet they can treasure for years. Our handmade flowers are crafted petal by petal.",
+    image:
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1800&q=90",
+    ctaText: "Shop Crochet Flowers",
+    ctaLink: "/shop?category=crochet-flowers",
+  },
+
+  {
+    id: "hero-3",
+    title: "Thoughtful Gifts, Made by Hand",
+    subtitle:
+      "From tiny keyrings to beautiful bouquets, find something special for every person and every occasion.",
+    image:
+      "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1800&q=90",
+    ctaText: "Find a Gift",
     ctaLink: "/shop",
   },
 ];
@@ -684,44 +810,65 @@ export const heroBanners: HeroBanner[] = [
 export const faqs: FAQ[] = [
   {
     id: "faq-1",
-    question: "How are the products made?",
+    question: "How are your products made?",
     answer:
-      "All our products are handcrafted with premium materials. Each item is carefully made by hand, ensuring unique quality and attention to detail in every piece.",
+      "Our products are handcrafted with care using quality materials. Crochet flowers, keyrings, home décor pieces, and gift items are individually made by hand, giving every piece its own character.",
     category: "General",
   },
+
   {
     id: "faq-2",
-    question: "Can I customize my order?",
+    question: "Do crochet flowers really last?",
     answer:
-      "Yes! We offer customization options for most products. You can choose colors, add personalized messages, and request specific arrangements. Contact us with your requirements.",
-    category: "Orders",
+      "Yes. Unlike fresh flowers, crochet flowers do not wilt or require water. With proper care, they can remain beautiful for years, making them a meaningful long-lasting gift.",
+    category: "Crochet",
   },
+
   {
     id: "faq-3",
-    question: "How do I place an inquiry?",
+    question: "Can I customize my order?",
     answer:
-      "Simply add products to your inquiry cart and submit it through our contact form or WhatsApp. We'll get back to you with details and pricing within 24 hours.",
+      "Yes! Many of our products can be customized. You can choose colors, bouquet combinations, candle options, gift messages, and other details depending on the product.",
     category: "Orders",
   },
+
   {
     id: "faq-4",
-    question: "Do you offer gift wrapping?",
+    question: "How do I place an inquiry?",
     answer:
-      "Yes! All our gift bundles come with premium gift wrapping included. For individual products, you can add gift wrapping during your inquiry.",
-    category: "Shipping",
+      "Simply add your favorite products to the inquiry cart and submit your request. You can also contact us through WhatsApp. We'll get back to you with availability, customization options, and pricing.",
+    category: "Orders",
   },
+
   {
     id: "faq-5",
-    question: "What is the turnaround time?",
+    question: "Do you offer gift wrapping?",
     answer:
-      "Most items are ready within 3-5 business days. Custom orders may take 5-7 business days. We'll provide an estimated timeline when you submit your inquiry.",
+      "Yes! Gift wrapping is available for our products, and selected gift bundles include gift wrapping as part of the package.",
     category: "Shipping",
   },
+
   {
     id: "faq-6",
-    question: "Do you ship internationally?",
+    question: "How long does a custom order take?",
     answer:
-      "Currently, we primarily serve local customers. However, we can discuss international shipping for special orders. Please contact us for details.",
-    category: "Shipping",
+      "Most ready-made products can be prepared within 3–5 business days. Custom crochet orders may take 5–7 business days depending on the size and complexity of the order.",
+    category: "Orders",
+  },
+
+  {
+    id: "faq-7",
+    question: "How should I care for crochet flowers?",
+    answer:
+      "Keep crochet flowers away from excessive moisture and direct sunlight. Gently dust them when needed and store them in a clean, dry place to keep them looking beautiful.",
+    category: "Crochet",
+  },
+
+  {
+    id: "faq-8",
+    question: "Are the candles suitable for gifting?",
+    answer:
+      "Absolutely. Our candles are designed to be both decorative and giftable. They can be included in birthday, anniversary, thank-you, housewarming, and self-care gift sets.",
+    category: "Candles",
   },
 ];

@@ -22,64 +22,64 @@ const categories = [
 
 const articles = [
   {
-    category: "INGREDIENTS",
-    date: "OCT 24, 2023",
-    time: "6 MIN READ",
-    title: "The Science of Lavender: Why it's more than just a",
-    description:
-      "Exploring the therapeutic benefits of lavender oil in modern dermatological care.",
-    image:
-      "https://images.unsplash.com/photo-1498843053639-170ff2122f35?auto=format&fit=crop&w=700&q=85",
-  },
-  {
-    category: "ROUTINES",
-    date: "OCT 20, 2023",
-    time: "8 MIN READ",
-    title: "5 Steps to a Sustainable Evening Skincare Ritual",
-    description:
-      "How to minimize waste while maximizing glow. A guide to eco-friendly products that work.",
-    image:
-      "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=700&q=85",
-  },
-  {
-    category: "WELLNESS",
-    date: "OCT 15, 2023",
+    category: "CROCHET FLOWERS",
+    date: "SEP 05, 2026",
     time: "5 MIN READ",
-    title: "Mindful Beauty: The Connection Between Tea and",
+    title: "Why Crochet Flowers Make the Perfect Timeless Gift",
     description:
-      "The antioxidants in your herbal cup might be missing peace in your typical routine.",
+      "Discover why handmade crochet flowers are a beautiful alternative to fresh blooms — they never wilt, never need watering, and can be cherished for years.",
     image:
-      "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=700&q=85",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=700&q=85",
   },
   {
-    category: "BRAND STORIES",
-    date: "OCT 10, 2023",
-    time: "12 MIN READ",
-    title: "Inside the Lab: How We Source Our Botanical Actives",
-    description:
-      "A deep dive into our zero-waste extraction process and our partnership with local growers.",
-    image:
-      "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=85",
-  },
-  {
-    category: "INGREDIENTS",
-    date: "OCT 24, 2023",
+    category: "HANDMADE",
+    date: "SEP 01, 2026",
     time: "6 MIN READ",
-    title: "The Science of Lavender: Why it's more than just a",
+    title: "The Art Behind Every Handmade Crochet Flower",
     description:
-      "Exploring the therapeutic benefits of lavender oil in modern dermatological care.",
+      "From carefully choosing yarn to shaping every petal, explore the craftsmanship and patience that goes into creating each crochet flower by hand.",
     image:
-      "https://images.unsplash.com/photo-1498843053639-170ff2122f35?auto=format&fit=crop&w=700&q=85",
+      "https://images.unsplash.com/photo-1603905179139-db12ab535bca?auto=format&fit=crop&w=700&q=85",
   },
   {
-    category: "ROUTINES",
-    date: "OCT 20, 2023",
-    time: "8 MIN READ",
-    title: "5 Steps to a Sustainable Evening Skincare Ritual",
+    category: "KEYRINGS",
+    date: "AUG 27, 2026",
+    time: "4 MIN READ",
+    title: "Small Gifts, Big Meaning: Why Crochet Keyrings Are Special",
     description:
-      "How to minimize waste while maximizing glow. A guide to eco-friendly products that work.",
+      "Cute, practical, and handmade with love — discover why crochet keyrings make thoughtful gifts for birthdays, friends, and everyday surprises.",
     image:
-      "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=700&q=85",
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=85",
+  },
+  {
+    category: "HOME & DECOR",
+    date: "AUG 22, 2026",
+    time: "7 MIN READ",
+    title: "How Handmade Candles Transform Your Everyday Space",
+    description:
+      "Create a warm and cozy atmosphere with handcrafted candles designed to bring comfort, beauty, and a little calm into your home.",
+    image:
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=700&q=85",
+  },
+  {
+    category: "GIFT IDEAS",
+    date: "AUG 18, 2026",
+    time: "6 MIN READ",
+    title: "5 Handmade Gift Ideas for Someone You Love",
+    description:
+      "Looking for a meaningful gift? Explore thoughtful handmade ideas including crochet flowers, cute keyrings, and cozy candles.",
+    image:
+      "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=700&q=85",
+  },
+  {
+    category: "CROCHET FLOWERS",
+    date: "AUG 12, 2026",
+    time: "5 MIN READ",
+    title: "Fresh Flowers Fade. Crochet Flowers Last Forever.",
+    description:
+      "Celebrate special moments with flowers that never fade. Learn why crochet bouquets are becoming a beautiful and lasting way to show someone you care.",
+    image:
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=700&q=85",
   },
 ];
 

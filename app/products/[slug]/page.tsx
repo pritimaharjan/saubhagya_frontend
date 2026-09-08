@@ -14,60 +14,60 @@ import {
 } from "lucide-react";
 
 const gallery = [
-  "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1000&q=85",
-  "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?auto=format&fit=crop&w=1000&q=85",
-  "https://images.unsplash.com/photo-1608571423539-e951a1b7e5f6?auto=format&fit=crop&w=1000&q=85",
-  "https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1000&q=85",
+  "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=85",
+  "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=1000&q=85",
+  "https://images.unsplash.com/photo-1513884923967-4b182ef167ab?auto=format&fit=crop&w=1000&q=85",
+  "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=1000&q=85",
 ];
 
 const relatedProducts = [
   {
-    name: "Pain Relief Cream",
-    slug: "pain-relief-cream",
-    subtitle: "Soothing natural formula",
-    price: "$22",
-    oldPrice: "$28",
+    name: "Crochet Rose",
+    slug: "crochet-rose",
+    subtitle: "A handmade flower that never fades",
+    price: "$12",
+    oldPrice: "$15",
     image:
-      "https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?auto=format&fit=crop&w=800&q=85",
+      "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=800&q=85",
     badge: "BEST-SELLER",
   },
   {
-    name: "Night Serum",
-    slug: "night-serum",
-    subtitle: "A restorative night complex",
+    name: "Crochet Flower Bouquet",
+    slug: "crochet-flower-bouquet",
+    subtitle: "A timeless handmade bouquet",
+    price: "$35",
+    oldPrice: "$42",
+    image:
+      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=800&q=85",
+    badge: "POPULAR",
+  },
+  {
+    name: "Crochet Keyring",
+    slug: "crochet-keyring",
+    subtitle: "A cute handmade everyday accessory",
+    price: "$8",
+    oldPrice: "$10",
+    image:
+      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=800&q=85",
+    badge: "BEST-SELLER",
+  },
+  {
+    name: "Handmade Scented Candle",
+    slug: "handmade-scented-candle",
+    subtitle: "A warm fragrance for cozy moments",
     price: "$18",
-    oldPrice: "$26",
+    oldPrice: "$22",
     image:
-      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=800&q=85",
-    badge: "BEST-SELLER",
-  },
-  {
-    name: "Hydrating Cleanser",
-    slug: "hydrating-cleanser",
-    subtitle: "Daily gentle wash",
-    price: "$48",
-    oldPrice: "$56",
-    image:
-      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=800&q=85",
-    badge: "BEST-SELLER",
-  },
-  {
-    name: "Facial Toner",
-    slug: "facial-toner",
-    subtitle: "A clean aesthetic mist",
-    price: "$24",
-    oldPrice: "",
-    image:
-      "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=800&q=85",
-    badge: "",
+      "https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=800&q=85",
+    badge: "NEW",
   },
 ];
 
 const benefits = [
-  { icon: "✦", text: "Reduces stress and anxiety" },
-  { icon: "◌", text: "Improves sleep quality" },
-  { icon: "♧", text: "Anti-inflammatory properties" },
-  { icon: "◇", text: "100% Organic & Vegan" },
+  { icon: "✦", text: "Handmade with love" },
+  { icon: "◌", text: "Flowers that never fade" },
+  { icon: "♧", text: "Perfect for gifting" },
+  { icon: "◇", text: "Thoughtfully crafted" },
 ];
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
@@ -80,6 +80,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
   const addToBag = () => {
     setNotice(`${quantity} item${quantity > 1 ? "s" : ""} added to your bag.`);
+
     setTimeout(() => setNotice(""), 2200);
   };
 
@@ -100,6 +101,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           >
             Lé.nature
           </Link>
+
           <nav className="hidden items-center gap-8 md:flex">
             <a
               href="#shop"
@@ -107,12 +109,14 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             >
               Shop
             </a>
+
             <a
               href="#story"
               className="text-xs font-medium text-gray-600 hover:text-[#292d35]"
             >
               Our Story
             </a>
+
             <a
               href="#"
               className="text-xs font-medium text-gray-600 hover:text-[#292d35]"
@@ -120,11 +124,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               Blog
             </a>
           </nav>
+
           <div className="flex items-center gap-4">
             <div className="hidden cursor-pointer items-center gap-2 rounded-full border border-gray-200 px-4 py-2 text-xs text-gray-400 sm:flex">
               <span>⌕</span>
               <span>Search product...</span>
             </div>
+
             <button className="text-sm font-medium text-[#292d35]">♙</button>
           </div>
         </div>
@@ -136,12 +142,18 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <Link href="/" className="hover:text-[#292d35]">
             Home
           </Link>
+
           <span>/</span>
+
           <Link href="/shop" className="hover:text-[#292d35]">
             Shop
           </Link>
+
           <span>/</span>
-          <span className="text-[#292d35]">Premium CBD Restorative Oil</span>
+
+          <span className="text-[#292d35]">
+            Crochet Flower & Scented Candle
+          </span>
         </div>
       </div>
 
@@ -153,12 +165,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="relative aspect-square overflow-hidden rounded-2xl bg-[#f7f7f7]">
               <Image
                 src={gallery[activeImage]}
-                alt="Premium CBD Restorative Oil"
+                alt="Handmade crochet flower and candle"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"
               />
             </div>
+
             <div className="mt-4 grid grid-cols-4 gap-3">
               {gallery.map((src, i) => (
                 <button
@@ -188,19 +201,21 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               <span className="rounded-full bg-[#ec5c92] px-3 py-1 text-[10px] font-semibold text-white">
                 BEST-SELLER
               </span>
+
               <span className="text-[10px] font-medium uppercase tracking-wider text-gray-400">
-                Wellness &amp; Recovery
+                Crochet & Candles
               </span>
             </div>
 
             <h1 className="text-3xl font-bold leading-tight tracking-tight text-[#292d35]">
-              Premium CBD
+              Handmade Crochet
               <br />
-              Restorative Oil
+              Flower & Candle
             </h1>
 
             <p className="text-sm text-gray-500">
-              Full-spectrum hemp extract for daily restoration.
+              A beautiful handmade gift combining a forever crochet flower with
+              a warm scented candle.
             </p>
 
             <div className="flex items-center gap-2">
@@ -209,19 +224,22 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   <Star key={i} size={14} fill="currentColor" />
                 ))}
               </div>
-              <span className="text-xs text-gray-500">4.8 (124 Reviews)</span>
+
+              <span className="text-xs text-gray-500">4.9 (86 Reviews)</span>
             </div>
 
             <div className="flex items-baseline gap-2">
               <span className="text-2xl font-bold text-[#292d35]">$32</span>
-              <span className="text-sm text-gray-400 line-through">$42</span>
+
+              <span className="text-sm text-gray-400 line-through">$40</span>
             </div>
 
             <p className="text-sm leading-relaxed text-gray-500">
-              Our Premium CBD Oil is meticulously crafted using organic, non-GMO
-              hemp. Each drop delivers a potent dose of wellness, designed to
-              harmonize your body&apos;s natural systems and promote a sense of
-              calm and clarity throughout your day.
+              Carefully handmade with soft premium yarn and finished with
+              beautiful details, this crochet flower is designed to stay
+              beautiful for years. Paired with a hand-poured scented candle, it
+              creates a thoughtful gift for birthdays, anniversaries,
+              celebrations, or simply making someone's day special.
             </p>
 
             {/* Quantity */}
@@ -229,6 +247,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               <p className="mb-2 text-[10px] font-semibold uppercase tracking-wider text-gray-400">
                 Select Quantity
               </p>
+
               <div className="inline-flex items-center rounded-lg border border-gray-200">
                 <button
                   onClick={() => setQuantity(Math.max(1, quantity - 1))}
@@ -236,9 +255,11 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 >
                   −
                 </button>
+
                 <span className="min-w-[48px] text-center text-sm font-medium">
                   {quantity}
                 </span>
+
                 <button
                   onClick={() => setQuantity(quantity + 1)}
                   className="px-4 py-2 text-lg text-gray-600 hover:bg-gray-50"
@@ -257,6 +278,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <ShoppingCart size={14} />
                 ADD TO BAG
               </button>
+
               <button
                 onClick={() => setWishlisted(!wishlisted)}
                 className={`flex h-12 w-12 items-center justify-center rounded-lg border transition ${
@@ -280,21 +302,26 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eef0ff]">
                   <Truck size={16} className="text-[#6268e8]" />
                 </div>
+
                 <div>
                   <p className="text-xs font-semibold text-[#292d35]">
                     FREE SHIPPING
                   </p>
+
                   <p className="text-[10px] text-gray-400">Orders over $50</p>
                 </div>
               </div>
+
               <div className="flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#eef0ff]">
                   <RotateCcw size={16} className="text-[#6268e8]" />
                 </div>
+
                 <div>
                   <p className="text-xs font-semibold text-[#292d35]">
                     EASY RETURNS
                   </p>
+
                   <p className="text-[10px] text-gray-400">30-day window</p>
                 </div>
               </div>
@@ -305,10 +332,12 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               <h4 className="mb-3 text-[10px] font-semibold uppercase tracking-wider text-gray-400">
                 Product Benefits
               </h4>
+
               <div className="grid grid-cols-2 gap-3">
                 {benefits.map((b) => (
                   <div key={b.text} className="flex items-center gap-2">
                     <span className="text-sm text-[#6268e8]">{b.icon}</span>
+
                     <p className="text-xs text-gray-600">{b.text}</p>
                   </div>
                 ))}
@@ -318,24 +347,27 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             {/* Accordion */}
             <div className="divide-y divide-gray-100 border-t border-gray-100">
               <AccordionItem
-                title="FULL INGREDIENTS"
+                title="MATERIALS & DETAILS"
                 isOpen={open === "ingredients"}
                 onToggle={() =>
                   setOpen(open === "ingredients" ? null : "ingredients")
                 }
               >
-                Organic full-spectrum hemp extract, MCT oil, natural botanical
-                ingredients and vitamin E.
+                The crochet flower is made with soft, durable yarn and carefully
+                stitched by hand. The candle is hand-poured using quality wax
+                and a beautifully balanced fragrance.
               </AccordionItem>
+
               <AccordionItem
-                title="HOW TO USE"
+                title="CARE INSTRUCTIONS"
                 isOpen={open === "use"}
                 onToggle={() => setOpen(open === "use" ? null : "use")}
               >
-                Place the recommended serving under your tongue, hold briefly,
-                then swallow. Follow the product label and your local
-                regulations.
+                Keep crochet flowers away from excessive moisture and direct
+                sunlight for long-lasting beauty. For candles, trim the wick
+                before each use and never leave a burning candle unattended.
               </AccordionItem>
+
               <AccordionItem
                 title="SHIPPING & RETURNS"
                 isOpen={open === "shipping"}
@@ -343,8 +375,10 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                   setOpen(open === "shipping" ? null : "shipping")
                 }
               >
-                Orders are prepared within 1–2 business days. Returns are
-                accepted according to your store return policy.
+                Orders are carefully packed and prepared within 1–2 business
+                days. Returns are accepted according to our store return policy.
+                Personalized handmade items may have different return
+                conditions.
               </AccordionItem>
             </div>
           </div>
@@ -368,9 +402,9 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                     : "bg-white text-gray-500 hover:text-[#292d35]"
                 }`}
               >
-                {tab === "story" && "The Story"}
-                {tab === "application" && "Application"}
-                {tab === "reviews" && "Reviews (124)"}
+                {tab === "story" && "Our Story"}
+                {tab === "application" && "Care Guide"}
+                {tab === "reviews" && "Reviews (86)"}
               </button>
             ))}
           </div>
@@ -379,28 +413,30 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="grid items-center gap-10 md:grid-cols-2">
               <div>
                 <h2 className="mb-4 text-2xl font-bold leading-tight text-[#292d35]">
-                  Natural power,
+                  Handmade with love,
                   <br />
-                  scientific precision.
+                  made to last.
                 </h2>
+
                 <p className="mb-4 text-sm leading-relaxed text-gray-500">
-                  Lé.nature was born from the belief that skincare should be as
-                  pure as nature it comes from. Our CBD Oil is extracted using
-                  state-of-the-art CO2 technology, ensuring that every
-                  therapeutic terpene and cannabinoid remains intact and
-                  effective.
+                  Every crochet flower begins with a simple strand of yarn and
+                  is transformed into something meaningful by hand. Unlike fresh
+                  flowers, our crochet blooms never wilt, making them a
+                  beautiful reminder of special moments.
                 </p>
+
                 <p className="text-sm leading-relaxed text-gray-500">
-                  We partner with family-owned organic farms to source the
-                  highest quality hemp, guaranteeing transparency from seed to
-                  shelf. Each batch is third-party lab tested to ensure it meets
-                  our rigorous standards for purity and potency.
+                  We pair our handmade crochet pieces with carefully selected
+                  candles to create warm, thoughtful gifts. Each piece is
+                  crafted with patience and attention to detail, making every
+                  order feel personal and unique.
                 </p>
               </div>
+
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?auto=format&fit=crop&w=900&q=85"
-                  alt="Natural skincare ritual"
+                  src="https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=85"
+                  alt="Handmade candle and floral decor"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
@@ -412,12 +448,15 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           {activeTab === "application" && (
             <div className="mx-auto max-w-xl text-center">
               <h2 className="mb-4 text-2xl font-bold text-[#292d35]">
-                A simple daily ritual.
+                Simple care for lasting beauty.
               </h2>
+
               <p className="text-sm leading-relaxed text-gray-500">
-                Use consistently as part of your wellness routine. Start with
-                the serving suggested on your product packaging and adjust only
-                according to the label instructions.
+                Keep your crochet flowers in a dry, clean place and gently dust
+                them when needed. To enjoy your candle, always place it on a
+                stable heat-resistant surface, trim the wick before lighting,
+                and never leave it unattended. With simple care, your handmade
+                pieces can be enjoyed for a long time.
               </p>
             </div>
           )}
@@ -427,16 +466,19 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               <h2 className="mb-4 text-2xl font-bold text-[#292d35]">
                 What customers say.
               </h2>
+
               <div className="rounded-2xl bg-white p-8 shadow-sm">
                 <div className="mb-2 flex justify-center text-[#f59e0b]">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} size={18} fill="currentColor" />
                   ))}
                 </div>
-                <p className="mb-1 text-lg font-bold text-[#292d35]">4.8 / 5</p>
+
+                <p className="mb-1 text-lg font-bold text-[#292d35]">4.9 / 5</p>
+
                 <p className="text-sm italic text-gray-500">
-                  &ldquo;Beautiful packaging, simple routine, and a premium
-                  feel.&rdquo;
+                  “The crochet flower is beautiful and the candle smells
+                  amazing. It made such a thoughtful gift.”
                 </p>
               </div>
             </div>
@@ -450,12 +492,14 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           <div className="mb-8 flex items-end justify-between">
             <div>
               <h2 className="text-2xl font-bold text-[#292d35]">
-                Complete the Ritual
+                More Handmade Favorites
               </h2>
+
               <p className="mt-1 text-sm text-gray-500">
-                Explore other essentials for your wellness routine.
+                Discover more crochet pieces and cozy candle gifts.
               </p>
             </div>
+
             <a
               href="#"
               className="text-xs font-semibold text-[#6268e8] hover:underline"
@@ -474,6 +518,7 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                         {product.badge}
                       </span>
                     )}
+
                     <Image
                       src={product.image}
                       alt={product.name}
@@ -482,24 +527,29 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
                       className="object-cover transition duration-300 group-hover:scale-[1.03]"
                     />
                   </div>
+
                   <div className="mt-3">
                     <h3 className="text-[12px] font-semibold text-gray-800">
                       {product.name}
                     </h3>
+
                     <p className="mt-1 truncate text-[10px] text-gray-500">
                       {product.subtitle}
                     </p>
+
                     <div className="mt-2 flex items-center justify-between">
                       <div className="flex items-baseline gap-1">
                         <span className="text-[17px] font-bold">
                           {product.price}
                         </span>
+
                         {product.oldPrice && (
                           <span className="text-[11px] text-gray-400 line-through">
                             {product.oldPrice}
                           </span>
                         )}
                       </div>
+
                       <button
                         className="flex h-8 w-8 items-center justify-center rounded-full border border-[#bfc3ff] text-[#6268e8] transition hover:bg-[#6268e8] hover:text-white"
                         aria-label={`Add ${product.name} to cart`}
@@ -518,16 +568,19 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
       {/* Values */}
       <section className="border-t border-gray-100 bg-[#f7f7f7] py-16">
         <div className="mx-auto grid max-w-[1140px] grid-cols-1 gap-8 px-5 sm:grid-cols-3 lg:px-0">
-          <ValueCard icon="♧" title="PLANT-BASED">
-            We use only clean, non-toxic ingredients from ethical, organic
-            sources.
+          <ValueCard icon="♧" title="HANDMADE">
+            Every crochet piece is carefully handmade with patience, creativity,
+            and attention to detail.
           </ValueCard>
-          <ValueCard icon="♢" title="LAB TESTED">
-            Every single batch is verified for potency and purity by independent
-            labs.
+
+          <ValueCard icon="♢" title="TIMELESS GIFTS">
+            Crochet flowers never fade, making them meaningful gifts that can be
+            enjoyed for years.
           </ValueCard>
-          <ValueCard icon="✦" title="EFFECTIVE">
-            Optimized formulations designed to deliver visible and felt results.
+
+          <ValueCard icon="✦" title="COZY MOMENTS">
+            Hand-poured candles add warmth, fragrance, and a relaxing touch to
+            everyday spaces.
           </ValueCard>
         </div>
       </section>
@@ -553,12 +606,14 @@ function AccordionItem({
         className="flex w-full items-center justify-between text-left"
       >
         <span className="text-xs font-semibold text-[#292d35]">{title}</span>
+
         {isOpen ? (
           <ChevronUp size={16} className="text-gray-400" />
         ) : (
           <ChevronDown size={16} className="text-gray-400" />
         )}
       </button>
+
       {isOpen && (
         <p className="mt-3 text-sm leading-relaxed text-gray-500">{children}</p>
       )}
@@ -580,7 +635,9 @@ function ValueCard({
       <span className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-full bg-[#eef0ff] text-lg text-[#6268e8]">
         {icon}
       </span>
+
       <h3 className="mb-2 text-sm font-bold text-[#292d35]">{title}</h3>
+
       <p className="text-xs leading-relaxed text-gray-500">{children}</p>
     </div>
   );
